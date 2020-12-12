@@ -17,14 +17,14 @@ import "semantic-ui-css/semantic.min.css";
 import "./index.css";
 
 const wsLink = new WebSocketLink({
-  uri: `ws://localhost:5000/graphql`,
+  uri: `ws://gentle-lowlands-31174.herokuapp.com/graphql`,
   options: {
     reconnect: true,
   },
 });
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://gentle-lowlands-31174.herokuapp.com/",
 });
 
 const authLink = setContext(() => {
