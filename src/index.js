@@ -17,7 +17,7 @@ import "semantic-ui-css/semantic.min.css";
 import "./index.css";
 
 const wsLink = new WebSocketLink({
-  uri: `ws://gentle-lowlands-31174.herokuapp.com/graphql`,
+  uri: `wss://gentle-lowlands-31174.herokuapp.com/graphql`,
   options: {
     reconnect: true,
   },
